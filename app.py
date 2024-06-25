@@ -5,7 +5,7 @@ import uuid
 from datetime import datetime
 
 ##VARIABLES##
-credentials = st.secrets["google"]["credentials_google"]
+#credentials = st.secrets["google"]["credentials_google"]
 document_name = "bbdd-app-email-marketing"
 sheet_name = "contactos"
 
