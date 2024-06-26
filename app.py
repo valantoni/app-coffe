@@ -31,9 +31,11 @@ st.title("¡Unete a la familia de cafeteros!")
 
 c1,c2 = st.columns(2)
 with c1:
+    st.write("##")
     st.image("assets/logo.png")
 
 with c2:
+    st.write("##")
     nombre = st.text_input("Nombre*", placeholder="Tu nombre")
     email = st.text_input("Email*", placeholder="Tu mejor email")
     fecha_nacimiento = st.date_input("Fecha de nacimiento", help="Tu cumpleaños es importante para nosotros, te enviaremos un regalo especial ! 😉", value=None)
