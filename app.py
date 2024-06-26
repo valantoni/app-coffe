@@ -9,7 +9,6 @@ credentials = st.secrets["google"]["credentials_google"]
 document_name = "bbdd-app-email-marketing"
 sheet_name = "contactos"
 
-
 ##FUNCIONES##
 def validate_email(email):
     pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
@@ -28,7 +27,7 @@ st.set_page_config(page_title="Coffe shop", page_icon="☕", layout="centered")
 
 st.write("##")
 st.write("##")
-st.title("¡Unete a la familia de cafeteros :coffee:!")
+st.title("¡Unete a la familia de cafeteros!")
 
 c1,c2 = st.columns(2)
 with c1:
@@ -41,7 +40,7 @@ with c2:
     fecha_nacimiento = st.date_input("Fecha de nacimiento", help="Tu cumpleaños es importante para nosotros, te enviaremos un regalo especial ! 😉", value=None)
     policy = st.checkbox("Acepto recibir emails por parte de la empresa")
 
-    enviar = st.button("Enviar")
+    enviar = st.button("Enviar ☕")
 
   
 

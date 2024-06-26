@@ -163,3 +163,4 @@ cython_debug/
 
 credentials.json
 secrets.toml
+app_pages.py
