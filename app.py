@@ -29,7 +29,7 @@ st.set_page_config(page_title="Coffe shop", page_icon="☕", layout="centered")
 st.write("##")
 st.write("##")
 st.title("¡Unete a la familia de cafeteros :coffee:!")
-st.write("##")
+
 c1,c2 = st.columns(2)
 with c1:
     st.image("assets/logo.png")
@@ -43,8 +43,7 @@ with c2:
 
     enviar = st.button("Enviar")
 
-    st.write("##")
-    st.caption("© 2021 Coffe shop. Todos los derechos reservados")
+  
 
 ##BACK##
     if enviar:
@@ -74,3 +73,5 @@ with c2:
                 st.error(f"Ocurrió un error al enviar su información")
                 
             
+st.write("##")
+st.caption("© 2021 Coffe shop. Todos los derechos reservados")
