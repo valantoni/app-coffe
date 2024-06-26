@@ -55,8 +55,9 @@ with c2:
         elif not validate_email(email):
             st.error("Por favor, ingresa un email válido")    
         elif not policy:
-            elif fecha_nacimiento is not None and fecha_nacimiento > datetime.now().date():
-                st.error("Por favor, ingresa una fecha de nacimiento válida")
+            st.error("Por favor, acepta la política de privacidad")
+        elif fecha_nacimiento is not None and fecha_nacimiento > datetime.now().date():
+            st.error("Por favor, ingresa una fecha de nacimiento válida")
         else:
             try:
                 with st.spinner("Guardando información..."):
