@@ -26,7 +26,6 @@ def generate_unique_id():
 st.set_page_config(page_title="Coffe shop", page_icon="☕", layout="centered")
 
 st.write("##")
-st.write("##")
 st.title("¡Unete a la familia de cafeteros!")
 
 c1,c2 = st.columns(2)
