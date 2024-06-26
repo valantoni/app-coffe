@@ -13,7 +13,7 @@ Esta es una aplicación de Email Marketing diseñada para ayudarte a gestionar y
 
 1. Clona este repositorio en tu máquina local.
 2. Abre una terminal y navega hasta la carpeta del proyecto.
-3. Ejecuta el comando `streamlit run app` para instalar las dependencias.
+3. Ejecuta el comando `streamlit run app.py` para instalar las dependencias.
 4. Configura las variables de entorno necesarias para la conexión con tu proveedor de servicios de correo electrónico.
 
 ## Uso
