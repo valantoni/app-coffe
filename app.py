@@ -29,9 +29,17 @@ hide_st_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             
+            
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 st.write("##")
 st.title("¡Unete a la familia de cafeteros!")
