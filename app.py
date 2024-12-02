@@ -20,8 +20,6 @@ def validate_email(email):
 def generate_unique_id():
     return str(uuid.uuid4())
 
-
-##APP##
 ##FRONT##
 st.set_page_config(page_title="Coffe shop", page_icon="☕", layout="centered")
 
@@ -41,8 +39,6 @@ with c2:
     policy = st.checkbox("Acepto recibir emails por parte de la empresa")
 
     enviar = st.button("Enviar ☕")
-
-  
 
 ##BACK##
     if enviar:
@@ -69,8 +65,7 @@ with c2:
                     st.success("¡Gracias por unirte a la familia de cafeteros! ")
             
             except Exception as e:
-                st.error(f"Ocurrió un error al enviar su información")
-                
+                st.error(f"Ocurrió un error al enviar su información")           
             
 st.write("##")
 st.caption("© 2021 Coffe shop. Todos los derechos reservados")
